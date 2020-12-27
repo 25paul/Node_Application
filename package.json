@@ -1,0 +1,28 @@
+{
+  "name": "Node_Application",
+  "version": "1.0.0",
+  "description": "使用express,sequelize,mysql,pm2实现todolist项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/25paul/Node_Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/25paul/Node_Application/issues"
+  },
+  "homepage": "https://github.com/25paul/Node_Application#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
